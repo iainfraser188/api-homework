@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import MarioCartContainer from './containers/MarioCartContainer'
+// import SearchContainer from './containers/searchContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div class="container">
+      <h1 class="containerHead">Mario Cart Drivers</h1>
+      
+      {/* <SearchContainer /> */}
+      <MarioCartContainer/>
+    </div>  
+    </>
+ 
   );
 }
 
